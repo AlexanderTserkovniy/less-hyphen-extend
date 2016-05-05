@@ -1,0 +1,43 @@
+/**
+ * Meaning that this is utils
+ */
+.u- {
+  &flex {
+    display: flex;
+
+    &__1,
+    &--1 {
+      flex: 1;
+    }
+
+    &--ai-center {
+      align-items: center;
+    }
+
+    &--jc-center {
+      justify-content: center;
+    }
+
+    &--col {
+      flex-direction: column;
+    }
+
+    &--row {
+      flex-direction: row;
+    }
+  }
+
+  &unstyled-list {
+    list-style: none;
+  }
+
+  &ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  &relative {
+    position: relative;
+  }
+}
